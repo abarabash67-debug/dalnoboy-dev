@@ -2,7 +2,7 @@ baseURL = "https://dalnoboy-dev.pages.dev/"
 languageCode = "ru-ru"
 defaultContentLanguage = "ru"
 title = "Дальнобойный Программист"
-theme = "terminal"
+theme = "coder"
 
 # Настройки темы terminal
 [params]
