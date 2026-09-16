@@ -34,3 +34,4 @@ theme = "coder"
 
     [languages.ru.params]
       avatarURL = "/images/avatar.jpg"
+      avatarSize = "300px"
