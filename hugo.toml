@@ -32,3 +32,17 @@ theme = "coder"
         name = "RU"
         weight = 5
         url = "/"
+
+        [languages.ru.params]
+      # Шрифты
+      customFonts = [
+        "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      ]
+      
+      # Шрифт для заголовка сайта (логотип)
+      headingFontFamily = "Inter, sans-serif"
+      headingFontWeight = 300
+      
+      # Шрифт для основного текста
+      contentFontFamily = "Inter, sans-serif"
+      contentFontWeight = 400
