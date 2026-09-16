@@ -33,6 +33,7 @@ theme = "terminal"
 
       [languages.ru.params.logo]
         logoText = "Дальнобойный Программист"
+        logoCursorDisabled = true
         logoHomeLink = "/"
 
     [languages.ru.menu]
