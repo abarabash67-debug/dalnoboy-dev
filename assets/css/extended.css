@@ -1,6 +1,17 @@
+/* Делаем крупным и жирным ТОЛЬКО название сайта */
+.logo__text {
+    font-size: 32px !important;  /* Увеличиваем размер (было мелко, теперь будет крупно) */
+    color: #ff9900 !important;   /* Яркий оранжевый цвет */
+    font-weight: 800 !important; /* Максимально жирный шрифт */
+}
+
+/* Убираем фоновую плашку вокруг названия */
 .logo {
     background: none !important;
-    color: #ff9900 !important;
     padding: 0 !important;
-    font-weight: bold;
+}
+
+/* Скрываем забор из палочек, чтобы они не налезали на крупный текст */
+.logo__cursor {
+    display: none !important;
 }
