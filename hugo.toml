@@ -2,36 +2,45 @@ baseURL = "https://dalnoboy-dev.pages.dev/"
 languageCode = "ru-ru"
 defaultContentLanguage = "ru"
 title = "Дальнобойный Программист"
-theme = "coder"
+theme = "terminal"
+
+[params]
+  contentTypeName = "posts"
+  showMenuItems = 2
+  showLanguageSelector = false
+  fullWidthTheme = true
+  centerTheme = true
+  autoCover = false
+  showLastUpdated = false
+  disableHeadingsAnchors = false
 
 [languages]
   [languages.ru]
     languageName = "Русский"
     title = "Дальнобойный Программист"
-    weight = 1
+    subtitle = "Пишу код на кураже, без вышки и без снобизма"
+    owner = "Дальнобойный Программист"
+    keywords = ["вайбкодинг", "Python", "Telegram-боты", "ИИ"]
+    copyright = "© 2026 Дальнобойный Программист"
+    menuMore = "Показать ещё"
+    readMore = "Читать"
+    readOtherPosts = "Другие статьи"
+
+    [languages.ru.params]
+      subtitle = "Пишу код на кураже, без вышки и без снобизма"
+
+      [languages.ru.params.logo]
+        logoText = "Дальнобойный Программист"
+        logoHomeLink = "/"
 
     [languages.ru.menu]
       [[languages.ru.menu.main]]
-        name = "О себе"
-        weight = 1
+        identifier = "about"
+        name = "Обо мне"
         url = "/about/"
+        weight = 10
       [[languages.ru.menu.main]]
-        name = "Блог"
-        weight = 2
-        url = "/posts/"
-      [[languages.ru.menu.main]]
+        identifier = "projects"
         name = "Проекты"
-        weight = 3
         url = "/projects/"
-      [[languages.ru.menu.main]]
-        name = "Связаться со мной"
-        weight = 4
-        url = "/contact/"
-      [[languages.ru.menu.main]]
-        name = "RU"
-        weight = 5
-        url = "/"
-
-    [languages.ru.params]
-      avatarURL = "/images/avatar.jpg"
-      avatarSize = "300px"
+        weight = 20
