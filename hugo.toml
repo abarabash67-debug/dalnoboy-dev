@@ -2,18 +2,18 @@ baseURL = "https://dalnoboy-dev.pages.dev/"
 languageCode = "ru-ru"
 defaultContentLanguage = "ru"
 title = "Дальнобойный Программист"
-theme = "terminal"
+theme = "re-terminal"
 
 [params]
   contentTypeName = "posts"
   showMenuItems = 2
   showLanguageSelector = false
   fullWidthTheme = false
-  
   centerTheme = true
   autoCover = false
   showLastUpdated = false
   disableHeadingsAnchors = false
+  themeColor = "blue"    
 
 [languages]
   [languages.ru]
