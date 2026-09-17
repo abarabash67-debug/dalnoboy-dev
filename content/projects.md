@@ -7,7 +7,7 @@ draft = false
 
 ## 🤖 Помощник ДТП
 
-{{< image src="/img/road4.jpg" alt="Дорога" position="center" style="float: right; width: 25%; margin-left: 20px;" >}}
+{{< image src="/img/road4.jpg" alt="Дорога" position="right" style="width: 25%;" >}}
 
 Бесплатный бот, который пошагово разруливает стрессовые ситуации на дороге для обычных водителей. На коленке. Без бюджетов. Заменяя, по словам айтишников, сотни человеко-часов работы агентства.
 
