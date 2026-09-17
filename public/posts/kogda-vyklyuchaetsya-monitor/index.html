@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  
+    <title>Когда выключается монитор и начинается дорога :: Дальнобойный Программист</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Эту статью я написал специально для читателей vc.ru. Этот сайт пользуется огромным спросом у так называемых белых воротничков. Публика крайне специфическая и на мой взгляд достаточно циничная. Поэтому выкладываю как есть&hellip; Если вы не читатель этого ресурса, то начало поста не про вас. Но ситуация описанная в этом посте может случится с каждым.
+Я знаю, кто читает этот ресурс. Здесь сидят эксперты, авторы аналитических разборов, повелители алгоритмов и карающие мечи комментариев. Вы привыкли контролировать процессы, выстраивать логику и снисходительно смотреть на тех, кто ошибается.
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="https://dalnoboy-dev.pages.dev/posts/kogda-vyklyuchaetsya-monitor/" />
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://dalnoboy-dev.pages.dev/styles.css">
+
+
+
+<link rel="stylesheet" href="https://dalnoboy-dev.pages.dev/style.css">
+
+
+
+  <link rel="shortcut icon" href="https://dalnoboy-dev.pages.dev/img/theme-colors/blue.png">
+  <link rel="apple-touch-icon" href="https://dalnoboy-dev.pages.dev/img/theme-colors/blue.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="ru" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Когда выключается монитор и начинается дорога">
+<meta property="og:description" content="Эту статью я написал специально для читателей vc.ru. Этот сайт пользуется огромным спросом у так называемых белых воротничков. Публика крайне специфическая и на мой взгляд достаточно циничная. Поэтому выкладываю как есть&hellip; Если вы не читатель этого ресурса, то начало поста не про вас. Но ситуация описанная в этом посте может случится с каждым.
+Я знаю, кто читает этот ресурс. Здесь сидят эксперты, авторы аналитических разборов, повелители алгоритмов и карающие мечи комментариев. Вы привыкли контролировать процессы, выстраивать логику и снисходительно смотреть на тех, кто ошибается.
+" />
+<meta property="og:url" content="https://dalnoboy-dev.pages.dev/posts/kogda-vyklyuchaetsya-monitor/" />
+<meta property="og:site_name" content="Дальнобойный Программист" />
+
+  
+    <meta property="og:image" content="https://dalnoboy-dev.pages.dev/img/favicon/blue.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2026-09-16 18:00:00 &#43;0300 MSK" />
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(112756935, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/112756935" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+
+  
+
+
+</head>
+<body class="blue">
+
+
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Дальнобойный Программист
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about/">Обо мне</a></li>
+        
+      
+        
+          <li><a href="/posts/">Блог</a></li>
+        
+      
+        
+          <li><a href="/projects/">Проекты</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+      
+        
+          <li><a href="/about/" >Обо мне</a></li>
+        
+      
+        
+          <li><a href="/posts/" >Блог</a></li>
+        
+      
+        
+          <li><a href="/projects/" >Проекты</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://dalnoboy-dev.pages.dev/posts/kogda-vyklyuchaetsya-monitor/">Когда выключается монитор и начинается дорога</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2026-09-16</time>
+    
+</div>
+
+  
+  
+
+
+
+  
+
+  <div class="post-content"><div>
+        
+<img src="/img/road2.jpg"  alt="Дорога"  class="center"    />
+
+
+<p>Эту статью я написал специально для читателей vc.ru. Этот сайт пользуется огромным спросом у так называемых белых воротничков. Публика крайне специфическая и на мой взгляд достаточно циничная.
+Поэтому выкладываю как есть&hellip; Если вы не читатель этого ресурса, то начало поста не про вас. Но ситуация описанная в этом посте может случится с каждым.</p>
+<p>Я знаю, кто читает этот ресурс. Здесь сидят эксперты, авторы аналитических разборов, повелители алгоритмов и карающие мечи комментариев. Вы привыкли контролировать процессы, выстраивать логику и снисходительно смотреть на тех, кто ошибается.</p>
+<p>Но вся эта ментальная броня разбивается в щепки, когда вы закрываете ноутбук, садитесь за руль и выезжаете на дорогу. Потому что дорога — это джунгли. И здесь нет админских прав.</p>
+<h2 id="что-происходит-в-момент-дтп">Что происходит в момент ДТП<a href="#что-происходит-в-момент-дтп" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Когда на перекрестке происходит «бабах», весь ваш цифровой снобизм слетает за долю секунды. Включается чистая биология. Адреналин бьет по мозгам так, что IQ падает до уровня табуретки. Руки трясутся, в ушах звенит, перед глазами каша. Из соседней машины выходит человек — и он вообще не настроен на вежливый код-ревью.</p>
+<p>В этот момент «Его Величество Сеньор» оказывается в абсолютном ментальном вакууме. Включается опаснейший психологический триггер: <strong>«хочу, чтобы этот кошмар просто поскорее закончился»</strong>.</p>
+<h2 id="почему-вы-становитесь-жертвой">Почему вы становитесь жертвой<a href="#почему-вы-становитесь-жертвой" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>В состоянии этого шока человек готов подписать любую бумагу, согласиться на любые условия виновника, отдать деньги или, наоборот, уехать, совершив глупость. Вы становитесь идеальной жертвой для автоподставщиков, агрессоров и манипуляторов. Вы готовы поверить кому угодно, лишь бы выйти из этой чрезвычайной ситуации.</p>
+<h2 id="что-происходит-через-день-два">Что происходит через день-два<a href="#что-происходит-через-день-два" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>А потом, через день-два, когда адреналин спадает, начинается самый тяжелый этап — разбор полетов и самобичевание. Вы сидите перед монитором, смотрите на криво заполненное извещение или протокол и материте себя:</p>
+<blockquote>
+<p>«Ну как я, взрослый, умный человек, мог так тупануть? Почему я согласился? Почему не сфоткал? Почему не выставил знак?»</p>
+</blockquote>
+<p>Ответ простой: потому что вы не ожидали, что это произойдет именно с вами. Вы были не в своей зоне комфорта, а на чужой территории, где правила игры диктует паника.</p>
+<h2 id="соломку-нужно-стелить-заранее">Соломку нужно стелить заранее<a href="#соломку-нужно-стелить-заранее" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Чтобы не грызть локти потом, соломку нужно стелить сейчас, пока в вашей жизни всё спокойно и вы сидите с чашкой кофе. В состоянии шока вы не будете гуглить статьи или вспоминать советы. Мозг сможет выполнять только простейшие команды.</p>
+<p>Для этого и создана автоматизация. <strong>Бот — это не волшебная таблетка, это холодный, циничный алгоритм, у которого не трясутся руки.</strong> Ему плевать на крики, дождь и мигалки. Он просто берет вас за шиворот и ведет по шагам:</p>
+<ul>
+<li>«Включи аварийку».</li>
+<li>«Выстави знак».</li>
+<li>«Сделай этот кадр».</li>
+<li>«Нажми сюда».</li>
+</ul>
+<p>Он не даст вам совершить ошибок, за которые вы будете проклинать себя следующие полгода.</p>
+<h2 id="что-делать">Что делать<a href="#что-делать" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Зайдите, зарегистрируйтесь и забудьте о нем. Пусть он просто лежит в вашем телефоне как подушка безопасности. Карма — штука тонкая: лучше перебдеть и подстраховаться заранее, чем потом стоять на обочине и понимать, что ты обделался по полной.</p>
+<p>🤖 <strong>Соломку подстелить можно здесь:</strong> <a href="https://t.me/trassadtp_bot">https://t.me/trassadtp_bot</a> — это бесплатно. И пусть он вам никогда не пригодится.</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h"></span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="https://dalnoboy-dev.pages.dev/posts/konstruktory-botov/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Правда ли, что можно создавать Telegram-ботов на конструкторах без знания кода и зарабатывать на этом?</span>
+            </a>
+        </span>
+        
+        
+        <span class="button next">
+            <a href="https://dalnoboy-dev.pages.dev/posts/hugo-new-content/posts/konstruktory-botov/">
+                <span class="button__text"></span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/mirus-ua/hugo-theme-re-terminal" target="_blank">Theme</a> made by <a href="https://github.com/mirus-ua" target="_blank">Mirus</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
