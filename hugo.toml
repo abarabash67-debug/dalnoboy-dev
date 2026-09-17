@@ -6,14 +6,14 @@ theme = "re-terminal"
 
 [params]
   contentTypeName = "posts"
-  showMenuItems = 2
+  showMenuItems = 4
   showLanguageSelector = false
   fullWidthTheme = false
   centerTheme = true
   autoCover = false
   showLastUpdated = false
   disableHeadingsAnchors = false
-  themeColor = "blue"    
+  themeColor = "blue"
 
 [languages]
   [languages.ru]
@@ -36,6 +36,11 @@ theme = "re-terminal"
 
     [languages.ru.menu]
       [[languages.ru.menu.main]]
+        identifier = "blog"
+        name = "Блог"
+        url = "/posts/"
+        weight = 5
+      [[languages.ru.menu.main]]
         identifier = "about"
         name = "Обо мне"
         url = "/about/"
@@ -46,4 +51,5 @@ theme = "re-terminal"
         url = "/projects/"
         weight = 20
 
-        
+[pagination]
+  pagerSize = 5
