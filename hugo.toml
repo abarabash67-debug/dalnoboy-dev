@@ -34,16 +34,15 @@ theme = "re-terminal"
         logoText = "Дальнобойный Программист"
         logoHomeLink = "/"
 
-    [languages.ru.menu]
+    [[languages.ru.menu.main]]
+        identifier = "about"
+        name = "Обо мне"
+        url = "/about/"
+        weight = 5
       [[languages.ru.menu.main]]
         identifier = "blog"
         name = "Блог"
         url = "/posts/"
-        weight = 5
-      [[languages.ru.menu.main]]
-        identifier = "about"
-        name = "Обо мне"
-        url = "/about/"
         weight = 10
       [[languages.ru.menu.main]]
         identifier = "projects"
