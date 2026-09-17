@@ -13,13 +13,7 @@ theme = "re-terminal"
   autoCover = false
   showLastUpdated = false
   disableHeadingsAnchors = false
-  themeColor = "blue"  
-
-  [params.banner]
-    dismissible = false
-    position = "bottom"
-    text = "🤖 Бесплатный Помощник ДТП — закинь в бардачок → @trassadtp_bot"
-    url = "https://t.me/trassadtp_bot"  
+  themeColor = "blue"    
 
 [languages]
   [languages.ru]
