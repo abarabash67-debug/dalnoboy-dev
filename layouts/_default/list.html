@@ -1,43 +1,56 @@
 {{ define "main" }}
-<div class="blog-list" style="max-width: 800px; margin: 0 auto; padding: 20px 0;">
+<div class="blog-list" style="max-width: 700px; margin: 0 auto; padding: 20px 10px;">
     
-    <h1 style="margin-bottom: 40px; border-bottom: 2px dashed var(--accent, #00d2ff); padding-bottom: 10px;">
+    <!-- Заголовок раздела -->
+    <h1 style="margin-bottom: 30px; font-size: 28px; border-bottom: 2px dashed var(--accent, #00d2ff); padding-bottom: 10px;">
         {{ .Title }}
     </h1>
 
-    {{ range .Paginator.Pages }}
-    <article style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 24px; margin-bottom: 24px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <div style="display: flex; flex-direction: column; gap: 12px;">
+        <!-- Переворачиваем список, чтобы новые статьи шли сверху, и добавляем нумерацию через $.Paginator -->
+        {{ $pages := .Paginator.Pages }}
+        {{ range $index, $page := $pages }}
         
-        <p style="font-size: 14px; opacity: 0.6; margin: 0 0 10px 0;">📅 {{ .Date.Format "02.01.2006" }}</p>
+        <article style="display: flex; align-items: center; justify-content: space-between; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.08); border-radius: 6px; padding: 12px 20px; transition: 0.2s;">
+            
+            <div style="display: flex; align-items: center; gap: 15px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                <!-- Порядковый номер строки на текущей странице -->
+                <span style="font-weight: bold; color: rgba(255,255,255,0.3); font-size: 16px; min-width: 25px;">
+                    {{ printf "%02d" (add $index 1) }}.
+                </span>
+                
+                <!-- Название статьи (кликабельное) -->
+                <h2 style="margin: 0; font-size: 16px; font-weight: normal; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                    <a href="{{ .Permalink }}" style="color: #fff; text-decoration: none; transition: 0.2s;" onmouseover="this.style.color='var(--accent, #00d2ff)'" onmouseout="this.style.color='#fff'">
+                        {{ .Title }}
+                    </a>
+                </h2>
+            </div>
+
+            <!-- Кнопка «Открыть» и дата справа -->
+            <div style="display: flex; align-items: center; gap: 20px; flex-shrink: 0;">
+                <span style="font-size: 13px; opacity: 0.4;">{{ .Date.Format "02.01.2006" }}</span>
+                <a href="{{ .Permalink }}" style="background: transparent; border: 1px solid var(--accent, #00d2ff); color: var(--accent, #00d2ff); padding: 4px 12px; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; transition: 0.2s;" onmouseover="this.style.background='var(--accent, #00d2ff)'; this.style.color='#111'" onmouseout="this.style.background='transparent'; this.style.color='var(--accent, #00d2ff)'">
+                    Открыть
+                </a>
+            </div>
+
+        </article>
         
-        <h2 style="margin: 0 0 15px 0; font-size: 24px;">
-            <a href="{{ .Permalink }}" style="color: var(--accent, #00d2ff); text-decoration: none; font-weight: bold;">
-                {{ .Title }}
-            </a>
-        </h2>
+        {{ end }}
+    </div>
 
-        <div style="font-size: 16px; line-height: 1.6; margin-bottom: 20px; opacity: 0.9;">
-            {{ .Summary }}
-        </div>
-
-        <a href="{{ .Permalink }}" style="display: inline-block; background: var(--accent, #00d2ff); color: #111; padding: 8px 16px; border-radius: 4px; text-decoration: none; font-weight: bold; font-size: 14px;">
-            Читать далее →
-        </a>
-
-    </article>
-    {{ end }}
-
-    <!-- Блок пагинации (переключатель страниц) -->
+    <!-- Навигация по страницам (пагинация) -->
     {{ if gt .Paginator.TotalPages 1 }}
-    <nav style="display: flex; justify-content: center; gap: 15px; margin-top: 40px;">
+    <nav style="display: flex; justify-content: center; align-items: center; gap: 15px; margin-top: 40px; font-size: 14px;">
         {{ if .Paginator.HasPrev }}
-            <a href="{{ .Paginator.Prev.URL }}" style="text-decoration: none; padding: 8px 12px; border: 1px solid var(--accent, #00d2ff); border-radius: 4px;">← Сюда</a>
+            <a href="{{ .Paginator.Prev.URL }}" style="text-decoration: none; color: var(--accent, #00d2ff); padding: 6px 12px; border: 1px solid rgba(255,255,255,0.1); border-radius: 4px;">← Сюда</a>
         {{ end }}
         
-        <span style="padding: 8px 12px;">Страница {{ .Paginator.PageNumber }} из {{ .Paginator.TotalPages }}</span>
+        <span style="opacity: 0.6;">Страница {{ .Paginator.PageNumber }} из {{ .Paginator.TotalPages }}</span>
         
         {{ if .Paginator.HasNext }}
-            <a href="{{ .Paginator.Next.URL }}" style="text-decoration: none; padding: 8px 12px; border: 1px solid var(--accent, #00d2ff); border-radius: 4px;">Туда →</a>
+            <a href="{{ .Paginator.Next.URL }}" style="text-decoration: none; color: var(--accent, #00d2ff); padding: 6px 12px; border: 1px solid rgba(255,255,255,0.1); border-radius: 4px;">Туда →</a>
         {{ end }}
     </nav>
     {{ end }}
