@@ -20,7 +20,7 @@ draft: false
 <div style="background: #1e2230; border: 1px solid #00d2ff; padding: 20px 10px; border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.1);">
 <div style="font-size: 28px; margin-bottom: 8px;">🤖</div>
 <h3 style="color: #00d2ff; margin: 0 0 5px 0; font-size: 20px;">5 ботов</h3>
-<p style="margin: 0; font-size: 14px; opacity: 0.8;">Собрано с нуля</p>
+<p style="margin: 0; font-size: 14px; opacity: 0.8;">Собрано 2 в работе 3 в режиме тестирования</p>
 </div>
 
 <div style="background: #1e2230; border: 1px solid #00d2ff; padding: 20px 10px; border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.1);">
