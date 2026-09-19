@@ -3,31 +3,33 @@ title: "Дальнобойный Программист"
 draft: false
 ---
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 16px; margin: 30px 0;">
 
-<div style="border: 1px solid var(--border-color); padding: 20px; border-radius: 8px; width: 200px; text-align: center;">
-<h3 style="color: var(--accent);">🚛 21 год</h3>
-<p>За баранкой фуры</p>
+<div style="background: #1e2230; border: 1px solid #00d2ff; padding: 20px 10px; border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.1);">
+<div style="font-size: 28px; margin-bottom: 8px;">🚛</div>
+<h3 style="color: #00d2ff; margin: 0 0 5px 0; font-size: 20px;">21 год</h3>
+<p style="margin: 0; font-size: 14px; opacity: 0.8;">За баранкой фуры</p>
 </div>
 
-<div style="border: 1px solid var(--border-color); padding: 20px; border-radius: 8px; width: 200px; text-align: center;">
-<h3 style="color: var(--accent);">💻 9 месяцев</h3>
-<p>В IT и войтинге</p>
+<div style="background: #1e2230; border: 1px solid #00d2ff; padding: 20px 10px; border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.1);">
+<div style="font-size: 28px; margin-bottom: 8px;">💻</div>
+<h3 style="color: #00d2ff; margin: 0 0 5px 0; font-size: 20px;">с января 2026 г.</h3>
+<p style="margin: 0; font-size: 14px; opacity: 0.8;">В IT и Войтинге</p>
 </div>
 
-<div style="border: 1px solid var(--border-color); padding: 20px; border-radius: 8px; width: 200px; text-align: center;">
-<h3 style="color: var(--accent);">🤖 1 бот</h3>
-<p>Собран с нуля</p>
+<div style="background: #1e2230; border: 1px solid #00d2ff; padding: 20px 10px; border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.1);">
+<div style="font-size: 28px; margin-bottom: 8px;">🤖</div>
+<h3 style="color: #00d2ff; margin: 0 0 5px 0; font-size: 20px;">5 ботов</h3>
+<p style="margin: 0; font-size: 14px; opacity: 0.8;">Собрано с нуля</p>
 </div>
 
-<div style="border: 1px solid var(--border-color); padding: 20px; border-radius: 8px; width: 200px; text-align: center;">
-<h3 style="color: var(--accent);">🎯 100 дней</h3>
-<p>Путь от нуля до результата</p>
+<div style="background: #1e2230; border: 1px solid #00d2ff; padding: 20px 10px; border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.1);">
+<div style="font-size: 28px; margin-bottom: 8px;">🎯</div>
+<h3 style="color: #00d2ff; margin: 0 0 5px 0; font-size: 20px;">100 дней</h3>
+<p style="margin: 0; font-size: 14px; opacity: 0.8;">С нуля до законченного проекта</p>
 </div>
 
 </div>
-
-<br>
 
 ## О чём этот сайт
 
