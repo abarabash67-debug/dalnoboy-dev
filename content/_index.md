@@ -14,19 +14,18 @@ draft: false
 <div style="background: #1e2230; border: 1px solid #00d2ff; padding: 20px 10px; border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.1);">
 <div style="font-size: 28px; margin-bottom: 8px;">💻</div>
 <h3 style="color: #00d2ff; margin: 0 0 5px 0; font-size: 20px;">с января 2026 г.</h3>
-<p style="margin: 0; font-size: 14px; opacity: 0.8;">В IT и Войтинге</p>
+<p style="color: #00d2ff; margin: 0 0 5px 0; font-size: 20px;">В IT и Войтинге</p>
 </div>
 
 <div style="background: #1e2230; border: 1px solid #00d2ff; padding: 20px 10px; border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.1);">
 <div style="font-size: 28px; margin-bottom: 8px;">🤖</div>
-<h3 style="color: #00d2ff; margin: 0 0 5px 0; font-size: 20px;">5 ботов собрано</h3>
-<p style="margin: 0; font-size: 14px; opacity: 0.8;">2 уже приносят пользу 3 в режиме тестирования</p>
+<h3 style="color: #00d2ff; margin: 0 0 5px 0; font-size: 20px;">5 законченых проектов</h3>
 </div>
 
 <div style="background: #1e2230; border: 1px solid #00d2ff; padding: 20px 10px; border-radius: 12px; text-align: center; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.1);">
 <div style="font-size: 28px; margin-bottom: 8px;">🎯</div>
-<h3 style="color: #00d2ff; margin: 0 0 5px 0; font-size: 20px;">100 дней</h3>
-<p style="margin: 0; font-size: 14px; opacity: 0.8;">С нуля до законченного проекта</p>
+<h3 style="color: #00d2ff; margin: 0 0 5px 0; font-size: 20px;">за 100 дней</h3>
+<p style="color: #00d2ff; margin: 0 0 5px 0; font-size: 20px;">От полного непонимания до законченного проекта</p>
 </div>
 
 </div>
