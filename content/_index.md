@@ -45,8 +45,6 @@ draft = false
     📝 Блог на VC.ru
   </a>
 
-  <a href="https://github.com/abarabash67-debug" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; border: 1px solid #ffffff; color: #ffffff; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 15px; transition: 0.2s; background: rgba(255, 255, 255, 0.03);" onmouseover="this.style.background='#ffffff'; this.style.color='#111'; this.style.boxShadow='0 0 15px rgba(255, 255, 255, 0.4)'" onmouseout="this.style.background='rgba(255, 255, 255, 0.03)'; this.style.color='#ffffff'; this.style.boxShadow='none'">
-    🐙 Мой GitHub
-  </a>
+ 
 
 </div>
