@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Allow: /posts/
+Disallow: /categories/
+Disallow: /tags/
+
+Sitemap: https://dalnoboy-dev.pages.dev/sitemap.xml
