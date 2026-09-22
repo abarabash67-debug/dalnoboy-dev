@@ -47,9 +47,9 @@ keywords = ['телеграм бот для строителей', 'расчет
 Короче говоря, я написал за вечер рабочую модель бота-калькулятора для строителей. Не просто машинку, которая заменит другую. А девайс, который при расчётах учитывает условия, которые могут возникнуть: температура, рыхлость, коэффициенты и много чего ещё.
 
 <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin: 30px 0;">
-  <img src="/img/bot-screen1.png" alt="Скриншот бота 1" style="width: calc(33.33% - 11px); min-width: 220px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15);">
-  <img src="/img/bot-screen2.png" alt="Скриншот бота 2" style="width: calc(33.33% - 11px); min-width: 220px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15);">
-  <img src="/img/bot-screen3.png" alt="Скриншот бота 3" style="width: calc(33.33% - 11px); min-width: 220px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15);">
+  <img src="/img/bot-screen1.jpg" alt="Скриншот бота 1" style="width: calc(33.33% - 11px); min-width: 220px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15);">
+  <img src="/img/bot-screen2.jpg" alt="Скриншот бота 2" style="width: calc(33.33% - 11px); min-width: 220px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15);">
+  <img src="/img/bot-screen3.jpg" alt="Скриншот бота 3" style="width: calc(33.33% - 11px); min-width: 220px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15);">
 </div>
 
 Бот написан на жёстком диске, осталось довести до лоска, подключить платёжный шлюз и выпускать на волю... рубить капусту.
