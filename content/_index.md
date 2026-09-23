@@ -12,11 +12,6 @@ draft = false
 </div>
 
 <div style="background: #1e2230; border: 1px solid #00d2ff; padding: 24px 16px; border-radius: 12px; text-align: left; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15); display: flex; flex-direction: column; justify-content: flex-start; min-height: 200px; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 25px rgba(0, 210, 255, 0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0, 210, 255, 0.15)'">
-<h3 style="color: #00d2ff; margin: 0 0 10px 0; font-size: 18px; font-weight: bold; line-height: 1.2;">Архитектура</h3>
-<p style="margin: 0; font-size: 14px; opacity: 0.85; line-height: 1.4;">Связываем модули, базы данных и логику. Проектирование сложных отказоустойчивых систем без рутины.</p>
-</div>
-
-<div style="background: #1e2230; border: 1px solid #00d2ff; padding: 24px 16px; border-radius: 12px; text-align: left; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15); display: flex; flex-direction: column; justify-content: flex-start; min-height: 200px; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 25px rgba(0, 210, 255, 0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0, 210, 255, 0.15)'">
 <h3 style="color: #00d2ff; margin: 0 0 10px 0; font-size: 18px; font-weight: bold; line-height: 1.2;">Правда о вайбкодинге</h3>
 <p style="margin: 0; font-size: 14px; opacity: 0.85; line-height: 1.4;">Как не поломать ноги на сложных проектах. Честный разбор ограничений ИИ без инфоцыганства и иллюзий.</p>
 </div>
@@ -34,11 +29,6 @@ draft = false
 <div style="background: #1e2230; border: 1px solid #00d2ff; padding: 24px 16px; border-radius: 12px; text-align: left; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15); display: flex; flex-direction: column; justify-content: flex-start; min-height: 200px; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 25px rgba(0, 210, 255, 0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0, 210, 255, 0.15)'">
 <h3 style="color: #00d2ff; margin: 0 0 10px 0; font-size: 18px; font-weight: bold; line-height: 1.2;">Калькуляция объемов</h3>
 <p style="margin: 0; font-size: 14px; opacity: 0.85; line-height: 1.4;">Автоматический расчет объемов материалов с учетом коэффициентов усадки, утряски и плотности по СНиП за секунды.</p>
-</div>
-
-<div style="background: #1e2230; border: 1px solid #00d2ff; padding: 24px 16px; border-radius: 12px; text-align: left; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15); display: flex; flex-direction: column; justify-content: flex-start; min-height: 200px; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 25px rgba(0, 210, 255, 0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0, 210, 255, 0.15)'">
-<h3 style="color: #00d2ff; margin: 0 0 10px 0; font-size: 18px; font-weight: bold; line-height: 1.2;">Фиксация дефектов</h3>
-<p style="margin: 0; font-size: 14px; opacity: 0.85; line-height: 1.4;">Железобетонная фиксация нарушений на объекте с фото, геопривязкой и точным таймстампом. Исключает споры с подрядчиками.</p>
 </div>
 
 <div style="background: #1e2230; border: 1px solid #00d2ff; padding: 24px 16px; border-radius: 12px; text-align: left; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15); display: flex; flex-direction: column; justify-content: flex-start; min-height: 200px; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 25px rgba(0, 210, 255, 0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0, 210, 255, 0.15)'">
