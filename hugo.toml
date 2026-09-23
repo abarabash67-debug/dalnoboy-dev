@@ -36,9 +36,9 @@ theme = "re-terminal"
 
     [[languages.ru.menu.main]]
         identifier = "about"
-        name = "Обо мне"
+        name = "О себе"
         url = "/about/"
-        weight = 5
+        weight = 10
       [[languages.ru.menu.main]]
         identifier = "blog"
         name = "Блог"
