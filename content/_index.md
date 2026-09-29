@@ -3,7 +3,10 @@ title = "Charon Labs"
 draft = false
 +++
 
-<!-- РЯД 1: ДЛЯ БУДУЩИХ ВАЙБКОДЕРОВ -->
+
+
+
+<!-- РЯД 1: БЕЗОПАСНОСТЬ И КОНТРОЛЬ -->
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 30px 0;">
 
 <div style="background: #1e2230; border: 1px solid #00d2ff; padding: 24px 16px; border-radius: 12px; text-align: left; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15); display: flex; flex-direction: column; justify-content: flex-start; min-height: 200px; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 25px rgba(0, 210, 255, 0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0, 210, 255, 0.15)'">
