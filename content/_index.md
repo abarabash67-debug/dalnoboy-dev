@@ -23,22 +23,22 @@ draft = false
 
 </div>
 
-<!-- РЯД 2: ДЛЯ БИЗНЕСА -->
+<!-- РЯД 2: БЕЗОПАСНОСТЬ И КОНТРОЛЬ -->
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 30px 0;">
 
 <div style="background: #1e2230; border: 1px solid #00d2ff; padding: 24px 16px; border-radius: 12px; text-align: left; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15); display: flex; flex-direction: column; justify-content: flex-start; min-height: 200px; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 25px rgba(0, 210, 255, 0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0, 210, 255, 0.15)'">
-<h3 style="color: #00d2ff; margin: 0 0 10px 0; font-size: 18px; font-weight: bold; line-height: 1.2;">Калькуляция объемов</h3>
-<p style="margin: 0; font-size: 14px; opacity: 0.85; line-height: 1.4;">Автоматический расчет объемов материалов с учетом коэффициентов усадки, утряски и плотности по СНиП за секунды.</p>
+<h3 style="color: #00d2ff; margin: 0 0 10px 0; font-size: 18px; font-weight: bold; line-height: 1.2;">Безопасный запуск кода</h3>
+<p style="margin: 0; font-size: 14px; opacity: 0.85; line-height: 1.4;">Полная изоляция ИИ-скриптов от основной системы. Блокировка опасных консольных команд и защита от взлома серверов.</p>
 </div>
 
 <div style="background: #1e2230; border: 1px solid #00d2ff; padding: 24px 16px; border-radius: 12px; text-align: left; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15); display: flex; flex-direction: column; justify-content: flex-start; min-height: 200px; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 25px rgba(0, 210, 255, 0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0, 210, 255, 0.15)'">
-<h3 style="color: #00d2ff; margin: 0 0 10px 0; font-size: 18px; font-weight: bold; line-height: 1.2;">Транспорт и логистика</h3>
-<p style="margin: 0; font-size: 14px; opacity: 0.85; line-height: 1.4;">Цифровое распределение заявок, контроль статусов снабжения объектов и автоматическое построение маршрутов без звонков.</p>
+<h3 style="color: #00d2ff; margin: 0 0 10px 0; font-size: 18px; font-weight: bold; line-height: 1.2;">Контроль данных</h3>
+<p style="margin: 0; font-size: 14px; opacity: 0.85; line-height: 1.4;">Защита коммерческих секретов компании при работе с нейросетями. Фильтрация запросов и автоматическая защита от утечек.</p>
 </div>
 
 <div style="background: #1e2230; border: 1px solid #00d2ff; padding: 24px 16px; border-radius: 12px; text-align: left; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15); display: flex; flex-direction: column; justify-content: flex-start; min-height: 200px; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 25px rgba(0, 210, 255, 0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0, 210, 255, 0.15)'">
-<h3 style="color: #00d2ff; margin: 0 0 10px 0; font-size: 18px; font-weight: bold; line-height: 1.2;">Майнинг и снабжение</h3>
-<p style="margin: 0; font-size: 14px; opacity: 0.85; line-height: 1.4;">Оперативный учет остатков на складах, автоматическое формирование заявок и координация поставок в едином интерфейсе.</p>
+<h3 style="color: #00d2ff; margin: 0 0 10px 0; font-size: 18px; font-weight: bold; line-height: 1.2;">Проверка кода</h3>
+<p style="margin: 0; font-size: 14px; opacity: 0.85; line-height: 1.4;">Автоматический контроль качества сгенерированного кода прямо в CI/CD. Очистка от синтаксического мусора и недописанных функций.</p>
 </div>
 
 </div>
