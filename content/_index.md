@@ -10,17 +10,17 @@ draft = false
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 30px 0;">
 
 <div style="background: #1e2230; border: 1px solid #00d2ff; padding: 24px 16px; border-radius: 12px; text-align: left; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15); display: flex; flex-direction: column; justify-content: flex-start; min-height: 200px; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 25px rgba(0, 210, 255, 0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0, 210, 255, 0.15)'">
-<h3 style="color: #00d2ff; margin: 0 0 10px 0; font-size: 18px; font-weight: bold; line-height: 1.2;">Безопасный запуск кода</h3>
+<h3 style="color: #00d2ff; margin: 0 0 10px 0; font-size: 18px; font-weight: bold; line-height: 1.2;">Sandbox Guard</h3>
 <p style="margin: 0; font-size: 14px; opacity: 0.85; line-height: 1.4;">Полная изоляция ИИ-скриптов от основной системы. Блокировка опасных консольных команд и защита от взлома серверов.</p>
 </div>
 
 <div style="background: #1e2230; border: 1px solid #00d2ff; padding: 24px 16px; border-radius: 12px; text-align: left; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15); display: flex; flex-direction: column; justify-content: flex-start; min-height: 200px; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 25px rgba(0, 210, 255, 0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0, 210, 255, 0.15)'">
-<h3 style="color: #00d2ff; margin: 0 0 10px 0; font-size: 18px; font-weight: bold; line-height: 1.2;">Контроль данных</h3>
+<h3 style="color: #00d2ff; margin: 0 0 10px 0; font-size: 18px; font-weight: bold; line-height: 1.2;">Защита от утечек</h3>
 <p style="margin: 0; font-size: 14px; opacity: 0.85; line-height: 1.4;">Защита коммерческих секретов компании при работе с нейросетями. Фильтрация запросов и автоматическая защита от утечек.</p>
 </div>
 
 <div style="background: #1e2230; border: 1px solid #00d2ff; padding: 24px 16px; border-radius: 12px; text-align: left; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15); display: flex; flex-direction: column; justify-content: flex-start; min-height: 200px; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 8px 25px rgba(0, 210, 255, 0.3)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0, 210, 255, 0.15)'">
-<h3 style="color: #00d2ff; margin: 0 0 10px 0; font-size: 18px; font-weight: bold; line-height: 1.2;">Проверка кода</h3>
+<h3 style="color: #00d2ff; margin: 0 0 10px 0; font-size: 18px; font-weight: bold; line-height: 1.2;">Контроль CI/CD</h3>
 <p style="margin: 0; font-size: 14px; opacity: 0.85; line-height: 1.4;">Автоматический контроль качества сгенерированного кода прямо в CI/CD. Очистка от синтаксического мусора и недописанных функций.</p>
 </div>
 
@@ -28,7 +28,9 @@ draft = false
 
 ## О чём этот сайт
 
-**Для бизнеса** — проектирование и развертывание отказоустойчивых ИИ-инфраструктур, DevSecOps-предохранителей среды выполнения и API-шлюзов. Я создаю кастомные архитектурные решения, которые интегрируются в корпоративные пайплайны и намертво закрывают утечки данных, prompt-poisoning и критические инфраструктурные риски.
+**Для бизнеса** —— проектирование и развертывание отказоустойчивых ИИ-инфраструктур, DevSecOps-предохранителей среды выполнения и API-шлюзов. 
+**Charon Labs** —— создает кастомные архитектурные решения, которые бесшовно интегрируются в корпоративные пайплайны и намертво закрывают утечки данных, prompt-poisoning и критические инфраструктурные риски.
+Здесь публикуются готовые к внедрению инструменты, оперативные решения под новые уязвимости нейросетей и хроники цифрового сумасшествия.
 
 <div style="display: flex; gap: 15px; margin-top: 25px; flex-wrap: wrap;">
 
