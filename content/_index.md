@@ -1,5 +1,5 @@
 +++
-title = "Дальнобойный Программист"
+title = "Charon Labs"
 draft = false
 +++
 
@@ -49,7 +49,7 @@ draft = false
 
 **«Вайбкодер»** — человек, который задает нейросети направление, логику и архитектуру, а ИИ генерирует рутинный код. Я не трачу часы на поиск пропущенной точки с запятой — я знаю, как связать тяжелые модули между собой.
 
-**Для бизнеса** — Telegram-боты, которые намертво закрывают рутину: автоматический расчет объемов, фиксация дефектов, транспортная логистика, снабжение и интеграция сложных баз данных.
+**Для бизнеса** — проектирование и развертывание отказоустойчивых ИИ-инфраструктур, DevSecOps-предохранителей среды выполнения и API-шлюзов. Я создаю кастомные архитектурные решения, которые интегрируются в корпоративные пайплайны и намертво закрывают утечки данных, prompt-poisoning и критические инфраструктурные риски.
 
 <div style="display: flex; gap: 15px; margin-top: 25px; flex-wrap: wrap;">
 
@@ -59,6 +59,14 @@ draft = false
 
   <a href="https://vc.ru/id5959710" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; border: 1px solid #ff4d4d; color: #ff4d4d; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 15px; transition: 0.2s; background: rgba(255, 77, 77, 0.03);" onmouseover="this.style.background='#ff4d4d'; this.style.color='#fff'; this.style.boxShadow='0 0 15px rgba(255, 77, 77, 0.4)'" onmouseout="this.style.background='rgba(255, 77, 77, 0.03)'; this.style.color='#ff4d4d'; this.style.boxShadow='none'">
     📝 Блог на VC.ru
+  </a>
+
+    <a href="https://www.agensi.io/creators/creator-440" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; border: 1px solid #a855f7; color: #a855f7; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 15px; transition: 0.2s; background: rgba(168, 85, 247, 0.03);" onmouseover="this.style.background='#a855f7'; this.style.color='#fff'; this.style.boxShadow='0 0 15px rgba(168, 85, 247, 0.4)'" onmouseout="this.style.background='rgba(168, 85, 247, 0.03)'; this.style.color='#a855f7'; this.style.boxShadow='none'">
+    🧠 Agensi
+  </a>
+
+  <a href="https://github.com/abarbash67-debug" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; border: 1px solid #22c55e; color: #22c55e; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 15px; transition: 0.2s; background: rgba(34, 197, 94, 0.03);" onmouseover="this.style.background='#22c55e'; this.style.color='#111'; this.style.boxShadow='0 0 15px rgba(34, 197, 94, 0.4)'" onmouseout="this.style.background='rgba(34, 197, 94, 0.03)'; this.style.color='#22c55e'; this.style.boxShadow='none'">
+    💻 GitHub
   </a>
 
 </div>
