@@ -44,12 +44,7 @@ theme = "re-terminal"
         name = "Блог"
         url = "/posts/"
         weight = 10
-      [[languages.ru.menu.main]]
-        identifier = "projects"
-        name = "Скиллы"
-        url = "/projects/"
-        weight = 20
-
+      
 [pagination]
   pagerSize = 5
 
