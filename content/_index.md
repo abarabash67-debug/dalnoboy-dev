@@ -71,4 +71,3 @@ draft = false
 
 </div>
 
-</div>
