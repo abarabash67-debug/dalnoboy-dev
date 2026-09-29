@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Проекты on Дальнобойный Программист</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Проекты on Дальнобойный Программист</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <copyright>© 2026 Дальнобойный Программист</copyright>
+    <lastBuildDate>Fri, 25 Sep 2026 07:00:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Бот ДТП — карманный помощник, который выручит на дороге</title>
+      <link>http://localhost:1313/projects/pomoshchnik-dtp/</link>
+      <pubDate>Fri, 25 Sep 2026 07:00:00 +0300</pubDate>
+      
+      <guid>http://localhost:1313/projects/pomoshchnik-dtp/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/img/road4.jpg&#34;  alt=&#34;Бот ДТП — карманный помощник на дороге&#34;  class=&#34;center&#34;  style=&#34;width: 60%;&#34;    /&gt;
+
+
+&lt;h2 id=&#34;сохрани-себе-пригодится&#34;&gt;Сохрани себе. Пригодится&lt;/h2&gt;
+&lt;p&gt;Рано или поздно это может случиться с каждым. ДТП.&lt;/p&gt;
+&lt;p&gt;И в этот момент ты не думаешь о том, как правильно оформить Европротокол. Ты в стрессе. Руки трясутся. Вокруг сигналят. А рядом — второй водитель, который тоже не знает, что делать.&lt;/p&gt;
+&lt;p&gt;И тут начинается: «вызывай ГИБДД», «подожди, я позвоню юристу», «а может, разъедемся?»&lt;/p&gt;
+&lt;p&gt;Вызов аврийного коммиасра в разных регионах от 3000 до 15000 рублей.&lt;/p&gt;</description>
+      <content>
+&lt;img src=&#34;http://localhost:1313/img/road4.jpg&#34;  alt=&#34;Бот ДТП — карманный помощник на дороге&#34;  class=&#34;center&#34;  style=&#34;width: 60%;&#34;    /&gt;
+
+
+&lt;h2 id=&#34;сохрани-себе-пригодится&#34;&gt;Сохрани себе. Пригодится&lt;/h2&gt;
+&lt;p&gt;Рано или поздно это может случиться с каждым. ДТП.&lt;/p&gt;
+&lt;p&gt;И в этот момент ты не думаешь о том, как правильно оформить Европротокол. Ты в стрессе. Руки трясутся. Вокруг сигналят. А рядом — второй водитель, который тоже не знает, что делать.&lt;/p&gt;
+&lt;p&gt;И тут начинается: «вызывай ГИБДД», «подожди, я позвоню юристу», «а может, разъедемся?»&lt;/p&gt;
+&lt;p&gt;Вызов аврийного коммиасра в разных регионах от 3000 до 15000 рублей.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Вот для этого есть бот.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;что-он-делает&#34;&gt;Что он делает&lt;/h2&gt;
+&lt;h3 id=&#34;бесплатно&#34;&gt;Бесплатно&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Пошаговая инструкция при ДТП.&lt;/strong&gt;
+Аварийка, знак, жилет, что не трогать, куда звонить.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Честный разбор твоей ситуации.&lt;/strong&gt;
+Отвечаешь на вопросы бота — получаешь квалифицированный, подробный совет.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Оценка повреждений по фото.&lt;/strong&gt;
+Если ДТП из двух участников, бот попросит прикрепить фото с повреждениями.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Определение примерного ущерба.&lt;/strong&gt;
+По фото бот определит примерный ущерб. Если ущерб серьёзный — честно скажет об этом и порекомендует дождаться ДПС.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Рекомендация по Европротоколу.&lt;/strong&gt;
+Если ситуация некритичная, бот порекомендует составить Европротокол.&lt;/p&gt;
+&lt;h3 id=&#34;платно--499-рублей&#34;&gt;Платно — 499 рублей&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Проверка твоего проекта Европротокола.&lt;/strong&gt;
+Если сомневаешься в своих компетенциях — отправь фото протокола боту. Он проанализирует документ, сравнит с фото и правилами, после чего напишет юридически верно составленный текст.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Защита от отказа в выплате.&lt;/strong&gt;
+Бот сделает всё возможное, чтобы ты получил максимальную выплату и не дал страховой компании ни одного шанса на отказ.&lt;/p&gt;
+&lt;h3 id=&#34;всё-в-одном-telegram-боте&#34;&gt;Всё в одном Telegram-боте&lt;/h3&gt;
+&lt;p&gt;Открыл. Нажал. Получил.&lt;/p&gt;
+&lt;h2 id=&#34;почему-это-важно&#34;&gt;Почему это важно&lt;/h2&gt;
+&lt;p&gt;По данным МВД России, в 2025 году на дорогах страны произошло &lt;strong&gt;128 тысяч ДТП&lt;/strong&gt; с пострадавшими.&lt;/p&gt;
+&lt;p&gt;Каждый второй водитель не знает, как правильно оформить. Каждый второй теряет деньги и время из-за ошибок в документах.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Бот решает это за 499 рублей.&lt;/strong&gt; Это в 10–15 раз дешевле, чем позвонить автоюристу.&lt;/p&gt;
+&lt;h2 id=&#34;кому-это-нужно&#34;&gt;Кому это нужно&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Водителям&lt;/strong&gt; — сохрани себе. Пригодится.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Дальнобойщикам&lt;/strong&gt; — ты в чужом городе, без знакомых. Бот выручит.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Автоюристам&lt;/strong&gt; — можешь рекомендовать клиентам.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Страховым&lt;/strong&gt; — можешь предлагать клиентам.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;сохрани-бота&#34;&gt;Сохрани бота&lt;/h2&gt;
+&lt;p&gt;👉 &lt;a href=&#34;https://t.me/trassadtp_bot&#34;&gt;https://t.me/trassadtp_bot&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Открой, нажми «Старт» — и он у тебя в кармане. Навсегда.&lt;/p&gt;
+&lt;h2 id=&#34;а-теперь--к-делу&#34;&gt;А теперь — к делу&lt;/h2&gt;
+&lt;p&gt;Если ты дочитал до этого места, значит, тебе интересно, как это сделано. Или — тебе нужен такой же бот для своего бизнеса.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Я делаю Telegram-ботов под конкретные задачи.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Что я делаю:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ботов для бизнеса: логистика, автосервис, склад, стройка, продажи&lt;/li&gt;
+&lt;li&gt;Структуры файлов и архитектуру проектов&lt;/li&gt;
+&lt;li&gt;Промты для нейросетей под твои задачи&lt;/li&gt;
+&lt;li&gt;Автоматизацию рутины: заявки, расчёты, учёт, уведомления&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Что ты получаешь:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Рабочий бот&lt;/li&gt;
+&lt;li&gt;Исходный код с 100% прав владения&lt;/li&gt;
+&lt;li&gt;Инструкцию по запуску&lt;/li&gt;
+&lt;li&gt;Поддержку при развёртывании&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Сроки:&lt;/strong&gt; 3 дня на типовой проект.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Чек:&lt;/strong&gt; от 15 000 до 50 000 рублей — в зависимости от сложности.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Что нужно от тебя:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Описание задачи&lt;/li&gt;
+&lt;li&gt;Понимание, какую боль должен закрыть бот&lt;/li&gt;
+&lt;li&gt;3 дня&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;связаться&#34;&gt;Связаться&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://t.me/truck_coder&#34;&gt;https://t.me/truck_coder&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Напиши, какую задачу хочешь закрыть. Я скажу, сколько это будет стоить и за сколько сделаю.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;А если попал в ДТП — вот бесплатный помощник:&lt;/strong&gt; &lt;a href=&#34;https://t.me/trassadtp_bot&#34;&gt;https://t.me/trassadtp_bot&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Volume-Bot — инженерный ИИ-калькулятор для строителей</title>
+      <link>http://localhost:1313/projects/volume-bot/</link>
+      <pubDate>Fri, 18 Sep 2026 07:00:00 +0300</pubDate>
+      
+      <guid>http://localhost:1313/projects/volume-bot/</guid>
+      <description>&lt;div style=&#34;display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin: 30px 0;&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/img/bot-screen1.jpg&#34; alt=&#34;Скриншот бота 1&#34; style=&#34;width: calc(33.33% - 11px); min-width: 220px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15);&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/img/bot-screen2.jpg&#34; alt=&#34;Скриншот бота 2&#34; style=&#34;width: calc(33.33% - 11px); min-width: 220px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15);&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/img/bot-screen3.jpg&#34; alt=&#34;Скриншот бота 3&#34; style=&#34;width: calc(33.33% - 11px); min-width: 220px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15);&#34;&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;что-это&#34;&gt;Что это&lt;/h2&gt;
+&lt;p&gt;Telegram-бот, который считает строительные объёмы за секунды.&lt;/p&gt;</description>
+      <content>&lt;div style=&#34;display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin: 30px 0;&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/img/bot-screen1.jpg&#34; alt=&#34;Скриншот бота 1&#34; style=&#34;width: calc(33.33% - 11px); min-width: 220px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15);&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/img/bot-screen2.jpg&#34; alt=&#34;Скриншот бота 2&#34; style=&#34;width: calc(33.33% - 11px); min-width: 220px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15);&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/img/bot-screen3.jpg&#34; alt=&#34;Скриншот бота 3&#34; style=&#34;width: calc(33.33% - 11px); min-width: 220px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0, 210, 255, 0.15);&#34;&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;что-это&#34;&gt;Что это&lt;/h2&gt;
+&lt;p&gt;Telegram-бот, который считает строительные объёмы за секунды.&lt;/p&gt;
+&lt;p&gt;Инженер ПТО или сметчик тратит много времени на пересчёт в Excel: траншеи, грунт, бетон, арматура, асфальт. Каждый коэффициент — вручную. Ошибёшься — перерасход, убытки, споры с подрядчиком.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Volume-Bot делает это за секунды.&lt;/strong&gt; Отправляешь данные текстом или файлом Excel — получаешь готовый расчёт с учётом плотности, усадки и утряски.&lt;/p&gt;
+&lt;h2 id=&#34;что-внутри&#34;&gt;Что внутри&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Пять категорий расчёта:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Траншеи и обратная засыпка&lt;/li&gt;
+&lt;li&gt;Вывоз излишков грунта&lt;/li&gt;
+&lt;li&gt;Объёмы бетона по конструкциям&lt;/li&gt;
+&lt;li&gt;Расход арматурного проката&lt;/li&gt;
+&lt;li&gt;Объёмы асфальтобетонного полотна&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Ввод данных — любой:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Текстовое сообщение с цифрами&lt;/li&gt;
+&lt;li&gt;Файл Excel (.xlsx, .xls)&lt;/li&gt;
+&lt;li&gt;Таблица .csv&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Бот сам парсит таблицу&lt;/strong&gt;, переводит ячейки в цифры и считает.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Защита от сбоев.&lt;/strong&gt; Бот принимает файлы до 20 МБ и фильтрует расширения — сервер не упадёт от тяжёлого или повреждённого файла.&lt;/p&gt;
+&lt;h2 id=&#34;почему-это-выгодно&#34;&gt;Почему это выгодно&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Экономия времени.&lt;/strong&gt; Часы ручной работы → секунды.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Точность.&lt;/strong&gt; Коэффициенты плотности, усадки и утряски заложены в ядро. Никаких «на глазок».&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Бюджетный сервер.&lt;/strong&gt; Бот работает без базы данных — нулевая нагрузка на диск. Хватит 1 vCPU, 512 МБ RAM, 5 ГБ диска. Содержание — &lt;strong&gt;150–200 ₽ в месяц&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;кастомизация-под-клиента&#34;&gt;Кастомизация под клиента&lt;/h2&gt;
+&lt;p&gt;Базовый калькулятор считает пять категорий. Но это &lt;strong&gt;не финальный список&lt;/strong&gt; — это &lt;strong&gt;готовое ядро&lt;/strong&gt;, которое можно расширить под конкретные задачи:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Добавить новые типы расчётов: кирпич, ЖБИ, сваи, дорожные ограждения&lt;/li&gt;
+&lt;li&gt;Подключить справочники СНиП / ГОСТ под регион&lt;/li&gt;
+&lt;li&gt;Интегрировать с 1С, Excel-отчётами, CRM&lt;/li&gt;
+&lt;li&gt;Прикрутить базу данных для истории расчётов&lt;/li&gt;
+&lt;li&gt;Разработать личный кабинет и систему подписок&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Стоимость и сроки кастомизации — обсуждаются отдельно.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;что-получает-покупатель&#34;&gt;Что получает покупатель&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Чистый исходный код с разделённой логикой&lt;/li&gt;
+&lt;li&gt;Скрипт проверки окружения &lt;code&gt;check.py&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Тестовые файлы &lt;code&gt;make_test_file.py&lt;/code&gt; и &lt;code&gt;test_calc.py&lt;/code&gt; для аудита математики&lt;/li&gt;
+&lt;li&gt;Инструкция по развёртыванию&lt;/li&gt;
+&lt;li&gt;Развёртывание на сервере — 5 минут&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;требования-к-серверу&#34;&gt;Требования к серверу&lt;/h2&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Параметр&lt;/th&gt;
+					&lt;th&gt;Значение&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Процессор&lt;/td&gt;
+					&lt;td&gt;1 vCPU&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;RAM&lt;/td&gt;
+					&lt;td&gt;512 МБ – 1 ГБ&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Диск&lt;/td&gt;
+					&lt;td&gt;5 ГБ HDD/SSD&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Содержание&lt;/td&gt;
+					&lt;td&gt;150–200 ₽ в месяц&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;условия-сделки&#34;&gt;Условия сделки&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Полная продажа исходного кода&lt;/strong&gt; с передачей прав (Full Ownership) или &lt;strong&gt;аренда&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Сделка через Kwork&lt;/strong&gt; — безопасно&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Формат «As Is»&lt;/strong&gt; — как есть&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Документация&lt;/strong&gt; — README.md и requirements.txt в комплекте&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Связаться для покупки:&lt;/strong&gt; &lt;a href=&#34;https://t.me/truck_coder&#34;&gt;https://t.me/truck_coder&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;а-теперь--к-делу&#34;&gt;А теперь — к делу&lt;/h2&gt;
+&lt;p&gt;Если ты дочитал до этого места, значит, тебе интересно. Или — тебе нужен такой же бот для своего бизнеса.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Я делаю Telegram-ботов под конкретные задачи.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Что я делаю:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ботов для бизнеса: строительство, логистика, автосервис, склад, продажи&lt;/li&gt;
+&lt;li&gt;Инженерные калькуляторы и расчётные системы&lt;/li&gt;
+&lt;li&gt;Структуры файлов и архитектуру проектов&lt;/li&gt;
+&lt;li&gt;Промты для нейросетей под твои задачи&lt;/li&gt;
+&lt;li&gt;Автоматизацию рутины: заявки, расчёты, учёт, уведомления&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Что ты получаешь:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Рабочий бот&lt;/li&gt;
+&lt;li&gt;Исходный код с 100% прав владения&lt;/li&gt;
+&lt;li&gt;Инструкцию по запуску&lt;/li&gt;
+&lt;li&gt;Поддержку при развёртывании&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Сроки:&lt;/strong&gt; 3 дня на типовой проект.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Чек:&lt;/strong&gt; от 15 000 до 50 000 рублей — в зависимости от сложности.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Что нужно от тебя:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Описание задачи&lt;/li&gt;
+&lt;li&gt;Понимание, какую боль должен закрыть бот&lt;/li&gt;
+&lt;li&gt;3 дня&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Связаться:&lt;/strong&gt; &lt;a href=&#34;https://t.me/truck_coder&#34;&gt;https://t.me/truck_coder&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Напиши, какую задачу хочешь закрыть. Я скажу, сколько это будет стоить и за сколько сделаю.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Трасса-Бот — цифровая экосистема для логистики и придорожного бизнеса</title>
+      <link>http://localhost:1313/projects/trassa-bot/</link>
+      <pubDate>Thu, 17 Sep 2026 07:00:00 +0300</pubDate>
+      
+      <guid>http://localhost:1313/projects/trassa-bot/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/img/Screen1.jpg&#34;  alt=&#34;Трасса-Бот&#34;  class=&#34;center&#34;  style=&#34;width: 50%;&#34;    /&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Автономная Telegram-платформа&lt;/strong&gt; для секторов логистики, магистральных перевозок и придорожного ритейла. Сейчас проект в разработке — запуск скоро.&lt;/p&gt;
+&lt;h2 id=&#34;что-это&#34;&gt;Что это&lt;/h2&gt;
+&lt;p&gt;Не просто бот, а &lt;strong&gt;цифровая экосистема&lt;/strong&gt; для водителей и придорожного бизнеса.&lt;/p&gt;
+&lt;p&gt;Дальнобойщик в рейсе — один. Ему нужны инструменты, которые работают здесь и сейчас: контроль режима труда и отдыха, связь с логистикой, доступ к придорожным точкам. Придорожный бизнес — АЗС, мотели, СТО — нуждается в канале, через который можно достучаться до водителя.&lt;/p&gt;</description>
+      <content>
+&lt;img src=&#34;http://localhost:1313/img/Screen1.jpg&#34;  alt=&#34;Трасса-Бот&#34;  class=&#34;center&#34;  style=&#34;width: 50%;&#34;    /&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Автономная Telegram-платформа&lt;/strong&gt; для секторов логистики, магистральных перевозок и придорожного ритейла. Сейчас проект в разработке — запуск скоро.&lt;/p&gt;
+&lt;h2 id=&#34;что-это&#34;&gt;Что это&lt;/h2&gt;
+&lt;p&gt;Не просто бот, а &lt;strong&gt;цифровая экосистема&lt;/strong&gt; для водителей и придорожного бизнеса.&lt;/p&gt;
+&lt;p&gt;Дальнобойщик в рейсе — один. Ему нужны инструменты, которые работают здесь и сейчас: контроль режима труда и отдыха, связь с логистикой, доступ к придорожным точкам. Придорожный бизнес — АЗС, мотели, СТО — нуждается в канале, через который можно достучаться до водителя.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Трасса-Бот соединяет обе стороны.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;что-внутри&#34;&gt;Что внутри&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;🧠 Гибридный ИИ-модуль (Ollama / OpenAI)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ядро работает через облачный API OpenAI &lt;strong&gt;или&lt;/strong&gt; полностью автономно — на локальной нейросети Ollama (модели уровня Llama / Mistral). ИИ обрабатывает текстовые и голосовые запросы водителей без затрат на зарубежные подписки.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;💳 Встроенный легальный эквайринг (ЮKassa)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Бизнес-логика готова к приёму платежей на территории РФ. Приём оплаты за Premium-подписки водителей или рекламные места придорожного бизнеса работает из коробки.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;⏱ Модуль РТО (Режим труда и отдыха)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Цифровой тахограф-трекер для водителей. Автоматически восстанавливает активные смены из базы при перезапуске сервера — непрерывность контроля гарантирована.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;🛣 Снабжение, логистика и инфраструктура&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Каталог для оцифровки придорожных коммерческих точек: АЗС, мотели, СТО. Готовая B2B-модель для монетизации трафика и взаимодействия водителей со складскими и сервисными базами.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;🛡 Архитектурная безопасность&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Встроенная защита от спама и DDoS (AntiFloodMiddleware), автоматический контроль уровней доступа и тарифных планов (CheckPremiumMiddleware).&lt;/p&gt;
+&lt;h2 id=&#34;почему-это-серьёзный-проект&#34;&gt;Почему это серьёзный проект&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Охват.&lt;/strong&gt; Дальнобойщики, логисты, придорожный бизнес — это миллионы людей, которые ежедневно сталкиваются с одними и теми же проблемами. Трасса-Бот — инструмент, который закрывает их в одном месте.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Автономность.&lt;/strong&gt; Проект спроектирован по принципу максимальной отчуждаемости. Управление платформой — в одном файле &lt;code&gt;.env&lt;/code&gt;: переключение ИИ-провайдеров, смена токенов, подключение платёжек, PostgreSQL + Redis, режим Webhook.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Готовность к монетизации.&lt;/strong&gt; ЮKassa и Premium-подписки работают из коробки.&lt;/p&gt;
+&lt;h2 id=&#34;статус-проекта&#34;&gt;Статус проекта&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;В разработке.&lt;/strong&gt; Функционал тестируется локально. Запуск — скоро.&lt;/p&gt;
+&lt;p&gt;Следить за обновлениями можно в Telegram-канале.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;а-теперь--к-делу&#34;&gt;А теперь — к делу&lt;/h2&gt;
+&lt;p&gt;Если ты дочитал до этого места, значит, тебе интересно. Или — тебе нужен такой же бот для своего бизнеса.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Я делаю Telegram-ботов под конкретные задачи.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Что я делаю:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ботов для бизнеса: логистика, строительство, автосервис, склад, продажи&lt;/li&gt;
+&lt;li&gt;Цифровые экосистемы и платформы&lt;/li&gt;
+&lt;li&gt;Инженерные калькуляторы и расчётные системы&lt;/li&gt;
+&lt;li&gt;Структуры файлов и архитектуру проектов&lt;/li&gt;
+&lt;li&gt;Промты для нейросетей под твои задачи&lt;/li&gt;
+&lt;li&gt;Автоматизацию рутины: заявки, расчёты, учёт, уведомления&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Что ты получаешь:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Рабочий бот&lt;/li&gt;
+&lt;li&gt;Исходный код с 100% прав владения&lt;/li&gt;
+&lt;li&gt;Инструкцию по запуску&lt;/li&gt;
+&lt;li&gt;Поддержку при развёртывании&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Сроки:&lt;/strong&gt; 3 дня на типовой проект.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Чек:&lt;/strong&gt; от 15 000 до 50 000 рублей — в зависимости от сложности.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Что нужно от тебя:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Описание задачи&lt;/li&gt;
+&lt;li&gt;Понимание, какую боль должен закрыть бот&lt;/li&gt;
+&lt;li&gt;3 дня&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Связаться:&lt;/strong&gt; &lt;a href=&#34;https://t.me/truck_coder&#34;&gt;https://t.me/truck_coder&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Напиши, какую задачу хочешь закрыть. Я скажу, сколько это будет стоить и за сколько сделаю.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

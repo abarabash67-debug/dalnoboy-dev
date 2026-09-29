@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>Бот ДТП — карманный помощник, который выручит на дороге :: Дальнобойный Программист</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Telegram-бот для водителей: бесплатные инструкции при ДТП и Европротокол за 499 рублей. Сохрани себе — пригодится. А также услуги по разработке ботов для бизнеса." />
+<meta name="keywords" content="бот дтп, телеграм бот для водителей, европротокол онлайн, помощь при дтп, заказать телеграм бота, разработка ботов для бизнеса" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/projects/pomoshchnik-dtp/" />
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="http://localhost:1313/styles.css">
+
+
+
+<link rel="stylesheet" href="http://localhost:1313/style.css">
+
+
+
+  <link rel="shortcut icon" href="http://localhost:1313/img/theme-colors/blue.png">
+  <link rel="apple-touch-icon" href="http://localhost:1313/img/theme-colors/blue.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="ru" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Бот ДТП — карманный помощник, который выручит на дороге">
+<meta property="og:description" content="Telegram-бот для водителей: бесплатные инструкции при ДТП и Европротокол за 499 рублей. Сохрани себе — пригодится. А также услуги по разработке ботов для бизнеса." />
+<meta property="og:url" content="http://localhost:1313/projects/pomoshchnik-dtp/" />
+<meta property="og:site_name" content="Дальнобойный Программист" />
+
+  
+    <meta property="og:image" content="http://localhost:1313/img/favicon/blue.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2026-09-25 07:00:00 &#43;0300 MSK" />
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=112756935', 'ym');
+
+    ym(112756935, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/112756935" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+
+
+<script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(112756935, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/112756935" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+
+  
+
+</head>
+<body class="blue">
+
+
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Дальнобойный Программист
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/posts/">Блог</a></li>
+        
+      
+        
+          <li><a href="/about/">О себе</a></li>
+        
+      
+        
+          <li><a href="/projects/">Проекты</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+      
+        
+          <li><a href="/posts/" >Блог</a></li>
+        
+      
+        
+          <li><a href="/about/" >О себе</a></li>
+        
+      
+        
+          <li><a href="/projects/" >Проекты</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/projects/pomoshchnik-dtp/">Бот ДТП — карманный помощник, который выручит на дороге</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2026-09-25</time>
+    
+</div>
+
+  
+  
+
+
+
+  
+
+  <div class="post-content"><div>
+        
+<img src="/img/road4.jpg"  alt="Бот ДТП — карманный помощник на дороге"  class="center"  style="width: 60%;"    />
+
+
+<h2 id="сохрани-себе-пригодится">Сохрани себе. Пригодится<a href="#сохрани-себе-пригодится" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Рано или поздно это может случиться с каждым. ДТП.</p>
+<p>И в этот момент ты не думаешь о том, как правильно оформить Европротокол. Ты в стрессе. Руки трясутся. Вокруг сигналят. А рядом — второй водитель, который тоже не знает, что делать.</p>
+<p>И тут начинается: «вызывай ГИБДД», «подожди, я позвоню юристу», «а может, разъедемся?»</p>
+<p>Вызов аврийного коммиасра в разных регионах от 3000 до 15000 рублей.</p>
+<p><strong>Вот для этого есть бот.</strong></p>
+<h2 id="что-он-делает">Что он делает<a href="#что-он-делает" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<h3 id="бесплатно">Бесплатно<a href="#бесплатно" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p><strong>Пошаговая инструкция при ДТП.</strong>
+Аварийка, знак, жилет, что не трогать, куда звонить.</p>
+<p><strong>Честный разбор твоей ситуации.</strong>
+Отвечаешь на вопросы бота — получаешь квалифицированный, подробный совет.</p>
+<p><strong>Оценка повреждений по фото.</strong>
+Если ДТП из двух участников, бот попросит прикрепить фото с повреждениями.</p>
+<p><strong>Определение примерного ущерба.</strong>
+По фото бот определит примерный ущерб. Если ущерб серьёзный — честно скажет об этом и порекомендует дождаться ДПС.</p>
+<p><strong>Рекомендация по Европротоколу.</strong>
+Если ситуация некритичная, бот порекомендует составить Европротокол.</p>
+<h3 id="платно--499-рублей">Платно — 499 рублей<a href="#платно--499-рублей" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p><strong>Проверка твоего проекта Европротокола.</strong>
+Если сомневаешься в своих компетенциях — отправь фото протокола боту. Он проанализирует документ, сравнит с фото и правилами, после чего напишет юридически верно составленный текст.</p>
+<p><strong>Защита от отказа в выплате.</strong>
+Бот сделает всё возможное, чтобы ты получил максимальную выплату и не дал страховой компании ни одного шанса на отказ.</p>
+<h3 id="всё-в-одном-telegram-боте">Всё в одном Telegram-боте<a href="#всё-в-одном-telegram-боте" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>Открыл. Нажал. Получил.</p>
+<h2 id="почему-это-важно">Почему это важно<a href="#почему-это-важно" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>По данным МВД России, в 2025 году на дорогах страны произошло <strong>128 тысяч ДТП</strong> с пострадавшими.</p>
+<p>Каждый второй водитель не знает, как правильно оформить. Каждый второй теряет деньги и время из-за ошибок в документах.</p>
+<p><strong>Бот решает это за 499 рублей.</strong> Это в 10–15 раз дешевле, чем позвонить автоюристу.</p>
+<h2 id="кому-это-нужно">Кому это нужно<a href="#кому-это-нужно" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<ul>
+<li><strong>Водителям</strong> — сохрани себе. Пригодится.</li>
+<li><strong>Дальнобойщикам</strong> — ты в чужом городе, без знакомых. Бот выручит.</li>
+<li><strong>Автоюристам</strong> — можешь рекомендовать клиентам.</li>
+<li><strong>Страховым</strong> — можешь предлагать клиентам.</li>
+</ul>
+<h2 id="сохрани-бота">Сохрани бота<a href="#сохрани-бота" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>👉 <a href="https://t.me/trassadtp_bot">https://t.me/trassadtp_bot</a></p>
+<p>Открой, нажми «Старт» — и он у тебя в кармане. Навсегда.</p>
+<h2 id="а-теперь--к-делу">А теперь — к делу<a href="#а-теперь--к-делу" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Если ты дочитал до этого места, значит, тебе интересно, как это сделано. Или — тебе нужен такой же бот для своего бизнеса.</p>
+<p><strong>Я делаю Telegram-ботов под конкретные задачи.</strong></p>
+<p>Что я делаю:</p>
+<ul>
+<li>Ботов для бизнеса: логистика, автосервис, склад, стройка, продажи</li>
+<li>Структуры файлов и архитектуру проектов</li>
+<li>Промты для нейросетей под твои задачи</li>
+<li>Автоматизацию рутины: заявки, расчёты, учёт, уведомления</li>
+</ul>
+<p><strong>Что ты получаешь:</strong></p>
+<ul>
+<li>Рабочий бот</li>
+<li>Исходный код с 100% прав владения</li>
+<li>Инструкцию по запуску</li>
+<li>Поддержку при развёртывании</li>
+</ul>
+<p><strong>Сроки:</strong> 3 дня на типовой проект.</p>
+<p><strong>Чек:</strong> от 15 000 до 50 000 рублей — в зависимости от сложности.</p>
+<p><strong>Что нужно от тебя:</strong></p>
+<ul>
+<li>Описание задачи</li>
+<li>Понимание, какую боль должен закрыть бот</li>
+<li>3 дня</li>
+</ul>
+<h2 id="связаться">Связаться<a href="#связаться" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><a href="https://t.me/truck_coder">https://t.me/truck_coder</a></p>
+<p>Напиши, какую задачу хочешь закрыть. Я скажу, сколько это будет стоить и за сколько сделаю.</p>
+<hr>
+<p><strong>А если попал в ДТП — вот бесплатный помощник:</strong> <a href="https://t.me/trassadtp_bot">https://t.me/trassadtp_bot</a></p>
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/mirus-ua/hugo-theme-re-terminal" target="_blank">Theme</a> made by <a href="https://github.com/mirus-ua" target="_blank">Mirus</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

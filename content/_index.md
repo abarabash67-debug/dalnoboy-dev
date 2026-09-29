@@ -61,12 +61,14 @@ draft = false
     📝 Блог на VC.ru
   </a>
 
-    <a href="https://www.agensi.io/creators/creator-440" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; border: 1px solid #a855f7; color: #a855f7; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 15px; transition: 0.2s; background: rgba(168, 85, 247, 0.03);" onmouseover="this.style.background='#a855f7'; this.style.color='#fff'; this.style.boxShadow='0 0 15px rgba(168, 85, 247, 0.4)'" onmouseout="this.style.background='rgba(168, 85, 247, 0.03)'; this.style.color='#a855f7'; this.style.boxShadow='none'">
+  <a href="https://www.agensi.io/creators/creator-440" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; border: 1px solid #a855f7; color: #a855f7; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 15px; transition: 0.2s; background: rgba(168, 85, 247, 0.03);" onmouseover="this.style.background='#a855f7'; this.style.color='#fff'; this.style.boxShadow='0 0 15px rgba(168, 85, 247, 0.4)'" onmouseout="this.style.background='rgba(168, 85, 247, 0.03)'; this.style.color='#a855f7'; this.style.boxShadow='none'">
     🧠 Agensi
   </a>
 
   <a href="https://github.com/abarbash67-debug" target="_blank" style="display: inline-flex; align-items: center; gap: 8px; border: 1px solid #22c55e; color: #22c55e; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 15px; transition: 0.2s; background: rgba(34, 197, 94, 0.03);" onmouseover="this.style.background='#22c55e'; this.style.color='#111'; this.style.boxShadow='0 0 15px rgba(34, 197, 94, 0.4)'" onmouseout="this.style.background='rgba(34, 197, 94, 0.03)'; this.style.color='#22c55e'; this.style.boxShadow='none'">
     💻 GitHub
   </a>
+
+</div>
 
 </div>
