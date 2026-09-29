@@ -1,7 +1,7 @@
 baseURL = "https://dalnoboy-dev.pages.dev/"
 languageCode = "ru-ru"
 defaultContentLanguage = "ru"
-title = "Дальнобойный Программист"
+title = "Charon Labs"
 theme = "re-terminal"
 
 [params]
@@ -18,20 +18,20 @@ theme = "re-terminal"
 [languages]
   [languages.ru]
     languageName = "Русский"
-    title = "Дальнобойный Программист"
-    subtitle = "Пишу код на кураже, без вышки и без снобизма"
-    owner = "Дальнобойный Программист"
-    keywords = ["вайбкодинг", "Python", "Telegram-боты", "ИИ"]
-    copyright = "© 2026 Дальнобойный Программист"
+    title = "Charon Labs"
+    subtitle = "Скиллы для ИИ-агентов. Инфраструктурная безопасность. Аналитика угроз"
+    owner = "Charon Labs"
+    keywords = ["ИИ-безопасность", "скиллы для агентов", "RAG-уязвимости", "вайбкодинг", "Python", "Telegram-боты"]
+    copyright = "© 2026 Charon Labs"
     menuMore = "Показать ещё"
     readMore = "Читать"
     readOtherPosts = "Другие статьи"
 
     [languages.ru.params]
-      subtitle = "Пишу код на кураже, без вышки и без снобизма"
+      subtitle = "Скиллы для ИИ-агентов. Инфраструктурная безопасность. Аналитика угроз"
 
       [languages.ru.params.logo]
-        logoText = "Дальнобойный Программист"
+        logoText = "Charon Labs"
         logoHomeLink = "/"
 
     [[languages.ru.menu.main]]
@@ -46,7 +46,7 @@ theme = "re-terminal"
         weight = 10
       [[languages.ru.menu.main]]
         identifier = "projects"
-        name = "Проекты"
+        name = "Скиллы"
         url = "/projects/"
         weight = 20
 
