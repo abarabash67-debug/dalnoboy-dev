@@ -3,40 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-09-25T07:00:00+03:00</lastmod>
+    <lastmod>2026-09-30T07:00:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-09-25T07:00:00+03:00</lastmod>
+    <lastmod>2026-09-30T07:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/pomoshchnik-dtp/</loc>
-    <lastmod>2026-09-25T07:00:00+03:00</lastmod>
+    <loc>http://localhost:1313/posts/slepaya-zona-cmr/</loc>
+    <lastmod>2026-09-30T07:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/vaybkoding-s-nulya/</loc>
-    <lastmod>2026-09-25T07:00:00+03:00</lastmod>
+    <loc>http://localhost:1313/posts/arhitekturnaya-slepota-ii-korporativnye-rag-uayzvimosti/</loc>
+    <lastmod>2026-09-29T17:00:00+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
-    <lastmod>2026-09-25T07:00:00+03:00</lastmod>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2026-09-29T12:00:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/volshebnie-promty-i-infotsygane/</loc>
     <lastmod>2026-09-24T14:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/kak-kidayut-dalnoboyshchikov/</loc>
-    <lastmod>2026-09-24T13:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2026-09-23T12:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/kak-ya-napisal-bota-dlya-stroiteley/</loc>
-    <lastmod>2026-09-22T12:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/boty-vsyo-chto-nuzhno-znat/</loc>
-    <lastmod>2026-09-21T13:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/kak-vyzhit-dalnoboyshchiku-v-epokhu-etrn/</loc>
-    <lastmod>2026-09-21T10:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/kak-sobrat-telegram-bota/</loc>
-    <lastmod>2026-09-21T10:00:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/tsifrovoy-blyur-dlya-beremennyh/</loc>
     <lastmod>2026-09-19T16:00:00+03:00</lastmod>
@@ -46,24 +28,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/velikoe-zabluzhdenie-relokanta/</loc>
     <lastmod>2026-09-19T12:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/konstruktory-ii-botov/</loc>
-    <lastmod>2026-09-18T14:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/razbor-low-code-intensivov/</loc>
-    <lastmod>2026-09-18T14:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/konstruktory-botov/</loc>
-    <lastmod>2026-09-18T12:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/volume-bot/</loc>
-    <lastmod>2026-09-18T07:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/trassa-bot/</loc>
-    <lastmod>2026-09-17T07:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/kogda-vyklyuchaetsya-monitor/</loc>
-    <lastmod>2026-09-16T18:00:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>

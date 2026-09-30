@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>Архитектурная слепота ИИ: Критические уязвимости в корпоративных RAG-пайплайнах :: Charon Labs</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Разбор главных ИИ-угроз: несанкционированная эксфильтрация данных через CORS, SSRF-инъекции и Data Poisoning в корпоративных базах знаний (RAG)." />
+<meta name="keywords" content="безопасность ИИ, RAG уязвимости, эксфильтрация данных, Data Poisoning, Sandbox Guard, атаки на нейросети, DevSecOps" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/posts/arhitekturnaya-slepota-ii-korporativnye-rag-uayzvimosti/" />
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="http://localhost:1313/styles.css">
+
+
+
+<link rel="stylesheet" href="http://localhost:1313/style.css">
+
+
+
+  <link rel="shortcut icon" href="http://localhost:1313/img/theme-colors/blue.png">
+  <link rel="apple-touch-icon" href="http://localhost:1313/img/theme-colors/blue.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="ru" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Архитектурная слепота ИИ: Критические уязвимости в корпоративных RAG-пайплайнах">
+<meta property="og:description" content="Разбор главных ИИ-угроз: несанкционированная эксфильтрация данных через CORS, SSRF-инъекции и Data Poisoning в корпоративных базах знаний (RAG)." />
+<meta property="og:url" content="http://localhost:1313/posts/arhitekturnaya-slepota-ii-korporativnye-rag-uayzvimosti/" />
+<meta property="og:site_name" content="Charon Labs" />
+
+  
+    <meta property="og:image" content="http://localhost:1313/img/favicon/blue.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2026-09-29 17:00:00 &#43;0300 MSK" />
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=112756935', 'ym');
+
+    ym(112756935, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/112756935" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+
+
+<script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(112756935, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/112756935" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+
+  
+
+</head>
+<body class="blue">
+
+
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Charon Labs
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/posts/">Блог</a></li>
+        
+      
+        
+          <li><a href="/about/">О себе</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+      
+        
+          <li><a href="/posts/" >Блог</a></li>
+        
+      
+        
+          <li><a href="/about/" >О себе</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/posts/arhitekturnaya-slepota-ii-korporativnye-rag-uayzvimosti/">Архитектурная слепота ИИ: Критические уязвимости в корпоративных RAG-пайплайнах</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2026-09-29</time>
+    
+</div>
+
+  
+  
+
+
+
+  
+
+  <div class="post-content"><div>
+        <p>Современный enterprise-сегмент совершает фундаментальную ошибку в безопасности, вслепую доверяя интеграциям с внешними ИИ-контурами. Стремительное и хаотичное внедрение баз знаний (RAG) и автономных агентов создало гигантскую слепую зону. Через нее коммерческие данные и закрытый документооборот сливаются наружу — причем без классического взлома периметра.</p>
+<p>ИТ-лаборатория <strong>Charon Labs</strong> зафиксировала критический сдвиг: уязвимости больше не бьют по серверам. Они бьют по самой логике работы языковых моделей с данными. Корпоративные файрволы шьются насквозь, пока магнаты от ИИ сознательно строят этот цифровой эшафот в погоне за тотальным контролем.</p>
+<p><img src="/img/ooo.jpg" alt="Архитектурная слепота ИИ"></p>
+<p>Ниже — детальный разбор трех векторов деструктивного воздействия, которые актуальны прямо сейчас.</p>
+<h3 id="вектор-1-слив-данных-через-компрометацию-cors-инцидент-lightrag">Вектор 1: Слив данных через компрометацию CORS (Инцидент LightRAG)<a href="#вектор-1-слив-данных-через-компрометацию-cors-инцидент-lightrag" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>Популярные опенсорсные архитектуры для построения графов знаний (в частности, LightRAG до версии 1.5.4) поставлялись на рынок с критической архитектурной ошибкой. Их конфигурация по умолчанию содержала опасную связку <code>CORS_ORIGINS=*</code> и <code>allow_credentials=True</code>.</p>
+<p><strong>Что это значит для инфраструктуры:</strong>
+Злоумышленнику не нужно атаковать ваш сервер напрямую. Атака направлена на легитимного сотрудника, авторизованного в базе знаний. Когда он заходит на любую внешнюю вредоносную страницу, скрытый скрипт через его же браузер отправляет authenticated-запросы к вашему внутреннему RAG-серверу.</p>
+<ul>
+<li><strong>Итог:</strong> Полный несанкционированный слив закрытого документооборота или мгновенное уничтожение всего индекса знаний организации. Классические системы ИБ при этом молчат. Уязвимости присвоен наивысший рейтинг опасности — <strong>CVSS 9.3</strong>.</li>
+</ul>
+<h3 id="вектор-2-перехват-облачных-ключей-через-ssrf-инъекции-инцидент-superbooga">Вектор 2: Перехват облачных ключей через SSRF-инъекции (Инцидент superbooga)<a href="#вектор-2-перехват-облачных-ключей-через-ssrf-инъекции-инцидент-superbooga" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>Уязвимость <code>CVE-2026-35486</code> в расширениях для подгрузки внешнего контекста (text-generation-webui) наглядно доказала, к чему приводит отсутствие жесткой валидации входящих URL-адресов.</p>
+<p><strong>Что это значит для инфраструктуры:</strong>
+Если ваш ИИ-агент или RAG-пайплайн имеет доступ к обработке внешних ссылок, он уязвим к подлогу запросов. Хакер скармливает модели ссылку, ведущую на локальный metadata-эндпоинт облачного провайдера (<code>169.254.169.254</code>). Модель, не имея фильтрации по хостам, послушно обращается по этому адресу, считывает секретные IAM-креденшелы управления сервером и выдает их злоумышленнику прямо в текстовом ответе.</p>
+<ul>
+<li><strong>Итог:</strong> Мгновенная потеря контроля над всей облачной инфраструктурой компании из-за одной некорректно обработанной ссылки.</li>
+</ul>
+<h3 id="вектор-3-саботаж-решений-и-отравление-мультимодальных-корпусов-mm-poisonrag">Вектор 3: Саботаж решений и отравление мультимодальных корпусов (MM-PoisonRAG)<a href="#вектор-3-саботаж-решений-и-отравление-мультимодальных-корпусов-mm-poisonrag" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>На конференции ACL был доказан метод полного ослепления мультимодальных ИИ-систем, обрабатывающих смешанный контент: тексты, PDF-отчеты и графики.</p>
+<p><strong>Что это значит для инфраструктуры:</strong>
+Атака класса <em>Data Poisoning</em> позволяет полностью дезориентировать модель. Злоумышленнику достаточно внедрить всего одну специально модифицированную «отравленную» картинку в общий массив документов компании. Вероятность успешного саботажа составляет <strong>56%</strong>, при этом деструктивный эффект автоматически переносится между разными поисковыми движками.</p>
+<ul>
+<li><strong>Итог:</strong> Точность генерации ответов ИИ по всей смежной теме падает до нуля. Модель начинает выдавать критические ошибки, принимая деструктивные аналитические решения и нанося прямой финансовый ущерб бизнесу.</li>
+</ul>
+<hr>
+<h3 id="точка-невозврата-стратегический-комплаенс">Точка невозврата: Стратегический комплаенс<a href="#точка-невозврата-стратегический-комплаенс" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>Масштаб проблемы заставил международные институты экстренно реагировать: Международный союз электросвязи (ITU-T) развернул рабочую группу <code>X.sg-rag</code> для создания первых стандартов безопасности RAG-систем. Но пока регуляторы описывают угрозы, бизнес несет прямые риски.</p>
+<p>Главный инсайд, который игнорируют ИТ-директора: <strong>ваша безопасность теперь зависит от безопасности ваших контрагентов.</strong> Вы можете запереть свои базы данных на замок, но если ваш партнер или подрядчик подключил к вашей CRM своего неизолированного ИИ-агента — ваши данные будут извлечены через него. Харон уже пригнал лодку к нашему берегу, и плата за этот проезд в один конец — потеря контроля над собственным бизнесом.</p>
+<p>Защита периметра больше не гарантирует сохранность активов. Безопасность ИИ обязывает строить защиту на уровне жесткой фильтрации, изоляции сред выполнения и санирования вылетающих потоков данных.</p>
+<h3 id="готовое-архитектурное-решение">Готовое архитектурное решение:<a href="#готовое-архитектурное-решение" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>Чтобы не тратить месяцы на консалтинговые аудиты, уязвимости RAG-архитектур можно закрыть превентивно на уровне middleware-изоляции. Инструмент фильтрации и автоматического отсечения векторов угроз уже спроектирован, протестирован в реальном ИТ-контуре и готов к интеграции под контролем независимых модераторов платформы.</p>
+<p><a href="https://www.agensi.io/skills/dataproxy-b2b-data-exfiltration-poisoning-guard">Активировать Sandbox Guard и защитить RAG-пайплайн</a></p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h"></span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="http://localhost:1313/posts/slepaya-zona-cmr/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Слепая зона CMR: Почему «умный» импорт из Китая спотыкается на Забайкальской таможне</span>
+            </a>
+        </span>
+        
+        
+        <span class="button next">
+            <a href="http://localhost:1313/posts/volshebnie-promty-i-infotsygane/">
+                <span class="button__text">Волшебные промты за 999 рублей: как цифровые фальшивомонетчики продают иллюзию вайбкодинга</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/mirus-ua/hugo-theme-re-terminal" target="_blank">Theme</a> made by <a href="https://github.com/mirus-ua" target="_blank">Mirus</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
