@@ -1,9 +1,9 @@
 +++
 date = '2026-10-01T12:00:00+03:00'
 draft = false
-title = 'Девять секунд до катастрофы: как ИИ-агент самостоятельно нашел токен доступа и стер production стартапа'
-description = 'Реальный факап PocketOS: ИИ-агент за 9 секунд снес production-базу вместе с бэкапами. Разбор инцидентов Replit, AI Shipping Labs, Supabase и runtime-защита для ИИ-кодеров.'
-keywords = ['ИИ-агент', 'production', 'sandbox escape', 'PostgresGuard', 'VibeRuntime', 'runtime-защита', 'PocketOS', 'Replit', 'Supabase', 'AI Shipping Labs', 'DROP TABLE', 'terraform destroy', 'AI-безопасность', 'ИИ-безопасность']
+title = 'ИИ-агент в Cursor и Claude: риски удаления production и безопасность ИИ-разработки'
+description = 'Разбор критических ошибок интеграции ИИ в DevOps на примере PocketOS, Replit и Supabase. Как предотвратить удаление базы данных и защитить production.'
+keywords = ['ИИ-агент', 'production', 'sandbox escape', 'PostgresGuard', 'VibeRuntime', 'runtime-защита', 'PocketOS', 'Replit', 'Supabase', 'AI Shipping Labs', 'DROP TABLE', 'terraform destroy', 'AI-безопасность', 'ИИ-безопасность', 'уязвимости ИИ', 'Cursor ИИ']
 tags = ['AI-безопасность', 'ИИ-агенты', 'production', 'runtime-защита', 'sandbox escape']
 +++
 
