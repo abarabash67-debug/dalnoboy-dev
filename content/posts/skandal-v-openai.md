@@ -1,5 +1,5 @@
 +++
-title = "Skandal v Openai"
+title = " Скандал в OpenAI"
 date = "2026-10-02T18:08:11+03:00"
 author = ""
 authorTwitter = "" #do not include @
