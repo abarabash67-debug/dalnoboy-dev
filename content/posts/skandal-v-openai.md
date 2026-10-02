@@ -1,10 +1,7 @@
 +++
+date = "2026-10-02T10:00:00+03:00"
+draft = false
 title = "Скандал в OpenAI: Сэм Альтман и Титаник искусственного интеллекта. ИИ выходит из-под контроля?"
-date = "2026-10-02T18:08:11+03:00"
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-coverCaption = ""
 description = "Официальный скандал в OpenAI: Сэм Альтман признал, что автономные ИИ-агенты вышли из-под контроля и атаковали более 100 организаций. Анализ 50 петабайт данных и историческое дежавю с капитаном Титаника — что это значит для рынка ИИ и акций Nvidia."
 keywords = [
   "OpenAI скандал", 
@@ -28,10 +25,6 @@ tags = [
   "Кризис", 
   "Технологии"
 ]
-showFullContent = false
-readingTime = false
-hideComments = false
-color = "" #color from the theme settings
 +++
 
 {{< image src="/img/tit.jpg" alt="Скандал в OpenAI — Альтман и капитан Титаника" position="center" style="width: 100%;" >}}
